@@ -1,43 +1,43 @@
 imgui
 ================================
-A small multiplatform immediate mode graphical user interface with OpenGL3.2 backend.
+OpenGL3.2バックエンドを持つ軽量でマルチプラットフォームなGUIライブラリ
 
-About
+このライブラリは何？
 -------------------------
-Most of the code is pulled from the recast library : http://code.google.com/p/recastnavigation/
+コードのほとんどはリキャストライブラリから持ってきています : http://code.google.com/p/recastnavigation/
 
-TrueType loading and rendering is done using stb_truetype : http://nothings.org/stb/stb_truetype.h
+TrueTypeフォントの読み込みとレンダリングは、stb_truetypeを使用して行われます。 : http://nothings.org/stb/stb_truetype.h
 
-The OpenGL backend was ported from OpenGL immediate mode to OpenGL 3.2 mainly to be compatible with Mac OS X core profile.
+OpenGLバックエンドは、主にMac OS Xコアプロファイルとの互換性を保つために、OpenGL immediate modeからOpenGL 3.2へ移植されました。
 
 ![Alt text](http://adrien.io/img/imgui/imgui.png)
 
-Build
+ビルド方法
 -------------------------
-The only depedency is OpenGL. GLFW, GLEW are embeded with the samples.
+依存関係のあるライブラリはOpenGLだけです。GLFW、GLEWはサンプルプログラムに埋め込まれています。
 
-Linux : Tested on Arch Linux, Ubuntu 12.10, Debian Wheezy with various versions of gcc
-
-    premake4 gmake
-    make debug
-    make release
-    ./sample
-
-
-Mac OS X : Tested on 10.7 (Lion) with XCode 4.6. Only compatible with core profile contexts.
+Linux : Arch Linux, Ubuntu 12.10, Debian Wheezy で、さまざまなバージョンのgccコンパイラを使ってテストしています。
 
     premake4 gmake
     make debug
     make release
     ./sample
 
-Windows : Tested on Windows 7 with Visual Studio 2008 and 2010
+
+Mac OS X : 10.7 (Lion)、XCode 4.6でテストしています。コアプロファイルのコンテキストにのみ対応しています。
+
+    premake4 gmake
+    make debug
+    make release
+    ./sample
+
+Windows : Windows 7、Visual Studio 2008および2010でテスト済み。
 
     premake4 vs2008 
     Open .sln file
 
 
-Usage
+使用法
 ----------------------------
 
 Consult [sample.cpp](https://github.com/AdrienHerubel/imgui/blob/master/sample.cpp) for a detailed usage example. 
