@@ -40,4 +40,4 @@ Windows : Windows 7、Visual Studio 2008および2010でテスト済み。
 使用法
 ----------------------------
 
-Consult [sample.cpp](https://github.com/AdrienHerubel/imgui/blob/master/sample.cpp) for a detailed usage example. 
+詳細な使用例については、[sample.cpp](https://github.com/AdrienHerubel/imgui/blob/master/sample.cpp) をご確認ください。 
